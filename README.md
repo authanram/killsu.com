@@ -1,10 +1,12 @@
 # killsu.com
 
-What you will see on killsu.com
+What you will see on [killsu.com](http://killsu.com)
 
 ## Note
 
 Feel free to contribute or use the code the way you want. There are no limitations from my side.
+
+Made with :heart: and [Laravel](https://laravel.com)
 
 ## Warranty / Usage
 
