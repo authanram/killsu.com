@@ -5,6 +5,7 @@ environments:
         domain: killsu.com
         memory: 1024
         cli-memory: 512
+        queues: []
         build:
             - 'composer install --no-dev --classmap-authoritative'
             - 'php artisan event:cache'
@@ -12,6 +13,7 @@ environments:
     staging:
         memory: 1024
         cli-memory: 512
+        queues: []
         build:
             - 'composer install --classmap-authoritative'
             - 'php artisan event:cache'
