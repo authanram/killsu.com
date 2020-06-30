@@ -16,7 +16,7 @@
         </div>
 
         <div class="m-b-md--small">
-            {{ request()->cookie('domain') ?? 'killsu.com' }}
+            {{ $host }}
             <br>
             <br>
             Daniel Seuffer, Geißwiesen 24/1, D-72227 Egenhausen
